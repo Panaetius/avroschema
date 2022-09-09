@@ -1,4 +1,4 @@
-marshmallow-avro
-================
+avroschema
+==========
 
-An implementation or the marshmallow library to work with avro schemas.
+Library to allow defining avro schemas with python code.

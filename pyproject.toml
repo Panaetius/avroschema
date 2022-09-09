@@ -1,16 +1,15 @@
 [tool.poetry]
-name = "marshmallow-avro"
+name = "avroschema"
 version = "0.1.0"
-description = "Extension of marshmallow to define Apache Avro schemas"
+description = "Library to allow defining avro schemas with python code."
 authors = ["Ralf Grubenmann <ralf.grubenmann@gmail.com>"]
 license = "Apache License 2.0"
 readme = "README.md"
-packages = [{include = "marshmallow_avro"}]
+packages = [{include = "avroschema"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 fastavro = "^1.6.0"
-marshmallow = "^3.17.1"
 
 
 [build-system]
