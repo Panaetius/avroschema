@@ -1,0 +1,90 @@
+[[package]]
+name = "fastavro"
+version = "1.6.0"
+description = "Fast read/write of AVRO files"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+codecs = ["lz4", "python-snappy", "zstandard"]
+lz4 = ["lz4"]
+snappy = ["python-snappy"]
+zstandard = ["zstandard"]
+
+[[package]]
+name = "marshmallow"
+version = "3.17.1"
+description = "A lightweight library for converting complex datatypes to and from native Python datatypes."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+packaging = ">=17.0"
+
+[package.extras]
+dev = ["flake8 (==5.0.4)", "flake8-bugbear (==22.8.22)", "mypy (==0.971)", "pre-commit (>=2.4,<3.0)", "pytest", "pytz", "simplejson", "tox"]
+docs = ["alabaster (==0.7.12)", "autodocsumm (==0.2.9)", "sphinx (==5.1.1)", "sphinx-issues (==3.0.1)", "sphinx-version-warning (==1.1.2)"]
+lint = ["flake8 (==5.0.4)", "flake8-bugbear (==22.8.22)", "mypy (==0.971)", "pre-commit (>=2.4,<3.0)"]
+tests = ["pytest", "pytz", "simplejson"]
+
+[[package]]
+name = "packaging"
+version = "21.3"
+description = "Core utilities for Python packages"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
+
+[[package]]
+name = "pyparsing"
+version = "3.0.9"
+description = "pyparsing module - Classes and methods to define and execute parsing grammars"
+category = "main"
+optional = false
+python-versions = ">=3.6.8"
+
+[package.extras]
+diagrams = ["jinja2", "railroad-diagrams"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "ea189bb86a72bd4abffc9f46307d44bb9b112f07e0b160f913fa4497dd4910d5"
+
+[metadata.files]
+fastavro = [
+    {file = "fastavro-1.6.0-cp310-cp310-macosx_10_14_x86_64.whl", hash = "sha256:cbaa7e5db05694c70985c7ddc8afd9f7c9aef3e66e78cb18d05c70db221eaa1a"},
+    {file = "fastavro-1.6.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:8d18d3540aab5f34bb88ad58d2f45b2c64f10bd04ad126bb79024a1e07d6db2b"},
+    {file = "fastavro-1.6.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d1271f11304951d4b61415480ec53c2d44c297eb00fd2d95098171805a6350d7"},
+    {file = "fastavro-1.6.0-cp310-cp310-win_amd64.whl", hash = "sha256:a80eec11dfc879299f4e20e6c5b19307dc50ec20a6f431fcfe2f29c5ae63c575"},
+    {file = "fastavro-1.6.0-cp37-cp37m-macosx_10_15_x86_64.whl", hash = "sha256:77354c17dc36cd21a3127004fd83854e799899b26f42fbe4a8bce3424c493551"},
+    {file = "fastavro-1.6.0-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:209afeb9dcdf624b10f223c17d3469fefd9669bdaceaf5a3fb47cb74a107e443"},
+    {file = "fastavro-1.6.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b78ce36f45cd582c8d8b5c8ade764b378d0f3581c1e62fba895945984dec107a"},
+    {file = "fastavro-1.6.0-cp37-cp37m-win_amd64.whl", hash = "sha256:6ac6db0c8229e5c3f633208e9d7e9e016ee725cbc53a9e5993b4c070c189f506"},
+    {file = "fastavro-1.6.0-cp38-cp38-macosx_10_15_x86_64.whl", hash = "sha256:7511fbf7e1251ae34965894cf59ad982612268a5043fbfeaf309db8f75c25489"},
+    {file = "fastavro-1.6.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c039f259c61e75d920b2ce236d676a7dbf122ee136df92133542a99174491392"},
+    {file = "fastavro-1.6.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:970599975812c8df4aba06ac4e4e558211fc645f3ca44a8fab12b0f2152fd959"},
+    {file = "fastavro-1.6.0-cp38-cp38-win_amd64.whl", hash = "sha256:ca4a3b4c39d2b280523111fb4ea09dd114ab78e7ee8adb166804624ce4b7ad98"},
+    {file = "fastavro-1.6.0-cp39-cp39-macosx_10_15_x86_64.whl", hash = "sha256:878b06ac7f6e411c849ceafd2cc7dd9e6eb3f7d4a5268aa6f02eb8460a069082"},
+    {file = "fastavro-1.6.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:8b788093cf45763e69cd8ffa2464a518edd13340a48e13c4211f85f25f91c972"},
+    {file = "fastavro-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a69d35e66812b3aed7204d796c2a0f132d2d5a115d94cc1fb3f5da3577a74d97"},
+    {file = "fastavro-1.6.0-cp39-cp39-win_amd64.whl", hash = "sha256:4eee1bfa7a5d35d252a58c96b727c4645a0e0db3f4c44b94de444d3b086bbc48"},
+    {file = "fastavro-1.6.0.tar.gz", hash = "sha256:64759b161bbacb5fdcbd54bd5cee05d8510836e09290e958937334dbf1bb587f"},
+]
+marshmallow = [
+    {file = "marshmallow-3.17.1-py3-none-any.whl", hash = "sha256:1172ce82765bf26c24a3f9299ed6dbeeca4d213f638eaa39a37772656d7ce408"},
+    {file = "marshmallow-3.17.1.tar.gz", hash = "sha256:48e2d88d4ab431ad5a17c25556d9da529ea6e966876f2a38d274082e270287f0"},
+]
+packaging = [
+    {file = "packaging-21.3-py3-none-any.whl", hash = "sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"},
+    {file = "packaging-21.3.tar.gz", hash = "sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb"},
+]
+pyparsing = [
+    {file = "pyparsing-3.0.9-py3-none-any.whl", hash = "sha256:5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc"},
+    {file = "pyparsing-3.0.9.tar.gz", hash = "sha256:2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb"},
+]
