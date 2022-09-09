@@ -12,6 +12,9 @@ python = "^3.8"
 fastavro = "^1.6.0"
 
 
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^2.20.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
