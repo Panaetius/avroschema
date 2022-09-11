@@ -1,0 +1,1 @@
+"""Avro schema python library."""
